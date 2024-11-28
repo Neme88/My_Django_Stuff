@@ -1,0 +1,20 @@
+body {
+    font-size: 15px;
+}
+p {
+    
+  font-size: 2em;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+#secondP {
+    font: italic bold 3em  Arial, sans-serif ;
+}
+ul {
+
+  font-size: 2em;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+}
