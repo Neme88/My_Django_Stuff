@@ -2,7 +2,7 @@ body {
     font-size: 15px;
 }
 p {
-    
+
   font-size: 2em;
   font-family: "Cormorant Garamond", serif;
   font-weight: 500;
@@ -17,4 +17,8 @@ ul {
   font-family: "Cormorant Garamond", serif;
   font-weight: 500;
   font-style: normal;
+}
+#header4 {
+    font: italic bold 2em  Arial, sans-serif ;
+    text-decoration: line-through;
 }
