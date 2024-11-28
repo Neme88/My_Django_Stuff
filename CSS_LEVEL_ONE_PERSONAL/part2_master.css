@@ -1,0 +1,25 @@
+body {
+
+    background: #a39e9f;
+}
+
+h1 {
+    color:#fa193e;
+}
+
+p {
+    color:#ffffff;
+}
+div {
+
+    background-color: #9e933e;
+    border: 1px;
+    border-style: double;
+    width: 300px;
+    
+}
+span {
+
+    color: #3e599e;
+    font-size: 25px;
+}

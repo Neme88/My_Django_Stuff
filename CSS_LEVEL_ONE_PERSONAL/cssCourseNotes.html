@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Full Course Notes</title>
+</head>
+<body>
+    <h1>Welcome to this CSS full course notes</h1>
+    <h2>The Objectives of this course </h2>
+    <h3>The Core objective of this course is to get advanced level knowledge of CSS before heading into boostrap</h3>
+    <p> In this notes we will be taking down the headlines and highlights of all the topics we will learn in ths course for reference and review purposes</p>
+    <h3>Course file Structure</h3>
+    <ul>
+      <li>In this section of the course the notes are divided into Parts 1-5 and then we have a final Level assessment</li>
+      <li>Each part consists of an html file and a css file refers to the contents of the CSS Level One folder for more information</li>
+    </ul>
+    <h2>Start of Level 1 part1 of CSS course.</h2>
+    <p>In this session we will cover the basics of CSS and how to link CSS file to our HTML file</p>
+    <p>CSS is a style sheet language used for describing the presentation of a document written in HTML or XML</p>
+    <h3>Example below is how to link CSS file to an html file</h3>
+    <code>
+      &lt;link rel="stylesheet" href="part1_master.css"&gt;
+    </code>
+    <p> In this example the link tag and its rel attribute is used to define that we are linking a CSS file while the href is use input the path to the css file it can be relative or absolute path depending on the location of the cs file in the machine.</p>
+    <p>When your CSS  file is properly link to html file all the styling changes you make in the css file reflect on the tags targeted </p>
+    <p>You can also style your html directly in the same file which is called inline styling however the best practice is to have a separate file for css code this for modularity</p>
+    <p>Comment in CSS</p>
+    <p>In CSS comments start with /* and end with */</p>
+    <P>Comment in CSS is used to add more readability in for the developer who is working on the code bass the when properly implemented the machine jumps of comment which means that comments gets ignored by the machine</P>
+    <h3>Example of comment in CSS</h3>
+    <code>
+      /* This is a comment in CSS */
+    </code>
+    <h3>CSS General form </h3>
+    <p>CSS rules are defined by selectors and declarations</p>
+       
+    <p>selected html tag also or tag selector, put the CSS property and to be applied on the html tag and it's value inside open and close curly bracket.</p>
+    <h3>Syntax Example</h3>
+    <p>
+      selector {
+        property: value;
+      }
+    </p>
+    <h3>code Example</h3>
+    <code>
+      selector = h1 {
+        property = color: value of property = red; semicolon = indicates that you are closing the selector
+      }
+    </code>
+    <h3>End of Level 1 part 1 CSS course.</h3>
+
+    <h2>Start of Level 1 Part2 of the CSS course.</h2>
+    <h2>The focus of this course will be Tag selector</h2>
+    <p> In today's course we are continuing using html tag in CSS to target elements for styling.</p>
+    <p>We will focus on learning how to style these limited list of html elements using tag selector to apply these limited list of CSS property as we will continue in subsequent course to use further properties to style further elements. </p>
+    <ol>
+        <li>background could be (the entire document background by targeting body or section backend by targeting div background) in this course we will style background by using this limited CSS properties such as: 
+            <ul>
+                <li>background-color: value of property = red;</li>
+                <li>background-image: value of property = url('image_path.jpg');</li>
+                <li>background-repeat: value of property = repeat-x;</li>
+            </ul>
+        </li>
+        <li> In this course we will style Html elements border using this exclusive list of CSS border properties such as:
+            <ul>
+                <li>border-color: value of property = red;</li>
+                <li>border-style: value of property = solid;</li>
+                <li>border-width: value of property = 10px;</li>
+            </ul
+        </li>
+        <li>div serves as a container where we can put in bunch of html elements meaning that we can target those elements to give them CSS unique styling such as:
+            <p>In this course we will style Html elements inside the div using this exclusive list of CSS properties such as:</p>
+            <ul>
+                <li>color: value of property = red;</li>
+            </ul>
+        </li>
+        <li>span we use span to selector to target an inline element for a unique CSS styling.
+            <p>In this course we will style the inline Html element inside the span tag this exclusive list of CSS properties such as:</p>
+            <ul>
+                <li>color: value of property = red;</li>
+                <li>font-size: value of property = 20px;</li>
+
+            </ul>
+        </li>
+    </ol>
+    <h3>End of Level1 Part2 CSS course.</h3>
+    <h2> Start of Level 1 Part3 of CSS course.</h2>
+    <p>In this course we will cover CSS selectors</p>
+    <p>CSS selectors are used to select HTML elements to style them directly even when an element is bundle into container elements like div selectors helps on target them for styling individually</p>
+    <p>There are different types of CSS selectors which we will be listing below</p>
+    <ol>
+      <li>Tag Selector: This is used to select all elements with a specific tag</li>
+      <li>Class Selector: This is used to select all elements with a specific class attribute</li>
+      <li>ID Selector: This is used to select a single element with a specific id attribute</li>
+      <li>Universal Selector: This is used to select all elements</li>
+      <li>Descendant Selector: This is used to select all elements that are descendants of a specified element</li>
+      <li>Child Selector: This is used to select all direct children of a specified element</li>
+      <li>Adjacent Sibling Selector: This is used to select all elements that are adjacent siblings of a specified element</li>
+      <li>General Sibling Selector: This is used to select all elements that are siblings of a specified element</li>
+      <li>Attribute Selector: This is used to select elements with a specific attribute</li>
+    </ol>
+    <h3>In this course we will focus more on this four types of selectors</h3>
+    <ul>
+      <li>Class Selector:.container { background-color: red; }</li>
+      <li>ID Selector: #header { color: red; }</li>
+      <li>Universal selector: *{color:red}</li>
+      <li>Descendant Selector: p span { color: red; }</li>
+      <li>Child Selector: div > p { color: red; }</li>
+      <li>Adjacent Sibling Selector: p + p { color: red; }</li>
+      <li>Attribute Selector: p [attribute='value'] { color:red; }</li>
+    </ul>
+      <h3>End of level1 part 3 course.</h3>
+      <h2>Start of Level1 part 4 of CSS Course.</h2>
+      <p>In this course we will cover how to use dev tools to inspect and make changes to both our websites or any website for that matter</p>
+      <h3>Tools we will be using</h3>
+      <ol>
+        <li>Google Chrome Dev Tools</li>
+        <li>Firefox Developer Tools</li>
+        <li>Edge Dev Tools</li>
+      </ol>
+      <h3>How to use Google Chrome Dev Tools</h3>
+
+      <ol>
+        <li>Open Google Chrome</li>
+        <li>Press Ctrl + Shift + I or F12</li>
+        <li>Inspect the element you want to change</li>
+        <li>Change the style by clicking on the color picker</li>
+      </ol>
+    
+    <h3>End of Level1 Part4 CSS course.</h3>
+    <h2>Start of Level 1 Part5 of CSS course.</h2>
+    <p>In this course we will cover CSS Specificity</p>
+    <p>CSS Specificity is a measure of how important a rule is in determining the visual representation of an element. Specificity is determined by the order in which rules are written and the specificity of selectors. The specificity of a selector is calculated as follows:</p>
+    <ol>
+      <li>Inline styles (e.g., style="color: red;") have the highest specificity and override all other styles.</li>
+      <li>ID selectors have a specificity of 1000.</li>
+      <li>Class, attribute, and pseudo-class selectors have a specificity of 100.</li>
+      <li>Type selectors and pseudo-elements have a specificity of 10.</li>
+      <li>Universal selectors (*) have a specificity of 0.</li>
+    </ol>
+    <h3>How to check CSS Specificity</h3>
+    <ol>
+      <li>Open Google Chrome</li>
+      <li>Press Ctrl + Shift + I or F12</li>
+      <li>Inspect the element you want to check specificity</li>
+      <li>Check the specificity of the CSS rule in the Styles tab</li>
+    </ol>
+    <h3>End of Level1 Part5 CSS course.</h3>
+    <h3> End of Level one Course Assignments</h3>
+
+    <h2>End of Level1 CSS Course</h2>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+/*
+We will show case four ways to add color styles to our html element
+*/
+
+h1 {
+    
+    /* calling the color by name example below */
+    color: red;
+}
+
+p {
+    /* calling the color by hexadecimal code example below */
+    color:  #34ebc6;
+}
+
+li {
+    /* calling the color by RGB values example below */
+    color: rgb(52, 192, 235 );
+}
+
+h4 {
+    /* calling the color by RGBA values example below */
+    color: rgba(225, 0, 0, 0.5);
+}

@@ -1,0 +1,19 @@
+li {
+    color: red;
+}
+.topitems {
+    color: blue;
+}
+#two {
+    color: black;
+    border: 3px solid black;
+}
+
+/* This course covers the specificity attached to each section selector and the weight each selector carries
+some selectors have more specificity weight than others. below is how this specificity weight is calculated 
+      1   Inline styles (e.g., style="color: red;") have the highest specificity and override all other styles.</li>
+      2 ID selectors have a specificity of 1000.
+      3 class, attribute, and pseudo-class selectors have a specificity of 100.
+      4 selectors and pseudo-elements have a specificity of 10.
+      5 Universal selectors (*) have a specificity of 0.
+*/

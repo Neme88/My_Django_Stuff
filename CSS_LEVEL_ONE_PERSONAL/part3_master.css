@@ -1,0 +1,42 @@
+h3 {
+    color: #487d19;
+}
+
+ .firstDiv {
+    color: green;
+}
+
+ .secondDiv {
+    color: green;
+    background-color: gray;
+}
+
+#firstId {
+    color: red;
+}
+#pieriandata {
+    color: black;
+}
+
+/*  this is the adjacent sibling styling the Ul element
+
+h3 + ul {
+
+    border: 4px dotted #d62020;
+}
+*/
+.onlyUl {
+    border: 4px dotted #892994;
+    color: #487d19;
+}
+
+[id= npr] {
+    color: red;
+    border: 5px solid #f79f07;
+}
+/*
+ this is the attribute selector used to style the id attribute inside our ul
+[id=pieriandata] {
+    color: black;
+}
+*/
