@@ -6,6 +6,7 @@
 
 body {
     background-color: #34e3d4;
+    height: 1000px;
     
 
 }
@@ -20,7 +21,7 @@ body {
     background-color: #0d0a2b;
     margin-left:60px;
     margin-right:60px;
-    height: 1500px;
+    height: 925px;
     color: white;
     text-align: center;
 }
@@ -28,16 +29,33 @@ body {
     margin-bottom: 30px
 }
 #header2 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 #first_P {
-    margin: 50px 450px 70px  450px;
-    font-size: 25px;
+    margin: 50px 450px 60px  450px;
+    font-size: 20px;
 }
 #second_P {
-    margin: 100px 450px 30px  450px;
-    font-size: 25px;
+    margin: 70px 450px 30px  450px;
+    font-size: 20px;
 }
 #second_header {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+}
+form p {
+    font-size: 20px;
+   
+}
+.allInput {
+    padding: 10px;
+    width: 25%;
+    margin-bottom: 10px;
+}
+#signUpButton {
+   padding: 35px;
+   background-color: #e39134;
+   border: 2px solid #eff0e6;
+   border-radius: 25px;
+   font-size: 20px
+
 }
