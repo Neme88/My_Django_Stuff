@@ -1,45 +1,40 @@
-*{
-    margin: 0;
+* {
     padding: 0;
     box-sizing: border-box;
 }
-table{
-    margin-top: 10px;
-    width: 100%;
-    padding-right: 10px;}
+table {
+    margin: auto;
 
-h2 {
+}
+
+h1 {
     font-family: "Yuji Mai", serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     margin-top:20px;
   }
+
+  td {
+
+    width: 150px;
+    height: 300px;
+    border: 6px solid white;
+  }
   
 #color1 {
 
     background-color:#227C9D;
-    width: 15%;
-    height: 600px;
-    border: 2px solid #000;
-    margin: 30px;
 }
-#color2{
+#color2 {
     background-color: #17C3B2;
-    width: 15%;
-    height: 200px;
-    padding: 10px;
 }
-#color3{
+#color3 {
     background-color: #FFCB77;
-    width: 15%;
 }
-#color4{
+#color4 {
     background-color: #FEF9EF;
-    width: 15%;
 }
-#color5{
+#color5 {
     background-color: #FE6D73;
-    width: 15%;
-    margin:10px;
 }
