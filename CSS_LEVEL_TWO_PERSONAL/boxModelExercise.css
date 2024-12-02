@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    margin-top: 10px;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    margin-top:20px;
+}
+#color1 {
+    background-color:#227C9D;
+    width: 15%;
+    height: 600px;
+    border: 2px solid #000;
+    margin-left:20px;
+}
+#color2{
+    background-color: #17C3B2;
+    width: 15%;
+    height: 200px;
+    padding: 10px;
+}
+#color3{
+    background-color: #FFCB77;
+    width: 15%;
+}
+#color4{
+    background-color: #FEF9EF;
+    width: 15%;
+}
+#color5{
+    background-color: #FE6D73;
+    width: 15%;
+    margin:10px;
+}
