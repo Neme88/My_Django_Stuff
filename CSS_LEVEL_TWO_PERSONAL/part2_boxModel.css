@@ -16,10 +16,14 @@
 
 }
 .bottom_box {
+
     border: 5px dotted;
     border-color: #d62020;
     border-radius: 10px;
     width: 80%;
     padding: 20px;
+    text-align: center;
+    margin: 100px 10px 10px 20px;
+    color: blue
 
 }
