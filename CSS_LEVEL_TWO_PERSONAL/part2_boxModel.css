@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_box{
+
+    border: 3px solid;
+    border-color: #3e599e;
+    border-radius: 6px;
+    width: 25%;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px;
+
+}
+.bottom_box {
+    border: 5px dotted;
+    border-color: #d62020;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+
+}
