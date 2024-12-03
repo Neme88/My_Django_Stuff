@@ -38,7 +38,6 @@
     background-color: #0d0a2b;
     margin-left:60px;
     margin-right:60px;
-    height: 925px;
     color: white;
     text-align: center;
 }
@@ -64,6 +63,9 @@
 #second_header {
     margin-bottom: 50px;
 }
+.label_fonts {
+    font-size: 20px;
+}
 #first_name, #last_name, #email {
 
     font-size: 20px;
@@ -71,7 +73,7 @@
 }
  
 .allInput {
-    padding: 10px;
+    padding: 8px;
     width: 25%;
     margin-bottom: 10px;
 }
