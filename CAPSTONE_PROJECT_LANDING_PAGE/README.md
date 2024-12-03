@@ -17,7 +17,6 @@ This project is a **Capstone Landing Page** built with **HTML** and **CSS**. It 
 1. **HTML**: For the structural markup of the landing and thank-you pages.
 2. **CSS**: For styling and layout:
    - Centralized font embedding using Google Fonts.
-   - Flexbox-based layout for responsive design.
 3. **Google Fonts**: Ensures a clean and consistent typography style.
 4. **Form Validation**: Utilizes HTML's built-in form validation.
 

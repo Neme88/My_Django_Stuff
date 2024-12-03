@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yuji+Mai&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body_1">
     <p class="topline"></p>
     <div class="main-div">
         <h1 id="header1">Welcome to the Landing Page</h1>
@@ -18,15 +18,18 @@
         <p id="second_P">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <h2 id="second_header">Sign up for our upcoming launch!</h2>
-        <form action="thankYouPage.html"id="signup-form">
-            <p id="first-name_p">First Name:</p>
-            <input type="text" class="allInput"id="First Name" placeholder="First Name" required>
-            <p id="last-name_p">Last Name:</p>
-            <input type="text" class="allInput" id=" Second Name" placeholder="Second Name" required>
-            <p id="email_p">Email:</p>
-            <input type="email" class="allInput" id="email" placeholder="Enter your email" required>
-            <br>
-            <input type="submit" value="Sign me Up" id="signUpButton">
+        <form action="thankYouPage.html"id="signup-form" method="get">
+            
+            <label for="first_name" id="first_Name">First Name</label><br>
+            <input type="text" class="allInput"id="First Name" placeholder="First Name" required><br>
+
+            <label for="last_name" id="last_Name">Last Name</label><br>
+            <input type="text" class="allInput" id=" Last Name" placeholder="Second Name" required><br>
+
+            <label for="email" id="email">Email</label><br>
+            <input type="email" class="allInput" id="email" placeholder="Enter your email" required><br>
+            
+            <input type="submit" value="Sign me Up!" id="signUpButton">
         </form>
     </div>
     

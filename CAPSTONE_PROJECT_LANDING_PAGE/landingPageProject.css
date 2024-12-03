@@ -4,14 +4,32 @@
     box-sizing: border-box;
 }
 
-body {
+#body_1, #body_2 {
 
-    background-color: #34e3d4;
-    height: 1020px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     
+}
+#body_1 {
+    background-color: #34e3d4;
+    height: 1020px;
+}
+#body_2 {
+    background-color: #0d0a2b;
+    margin-top: 10px;
+    color: white;
+}
+#for_color {
+    background-color: #12d7de;
+    padding: 80px;
+    width: 100%;
+    font-size: 35px;
+}
+.container-div {
+    text-align: center;
+
+    color: #fff;
 }
 .topline {
     background-color: #0d0a2b;
@@ -46,10 +64,12 @@ body {
 #second_header {
     margin-bottom: 50px;
 }
-form p {
+#first_Name, #last_Name, #email {
+
     font-size: 20px;
    
 }
+ 
 .allInput {
     padding: 10px;
     width: 25%;
