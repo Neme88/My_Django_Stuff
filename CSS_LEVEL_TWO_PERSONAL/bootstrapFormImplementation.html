@@ -13,34 +13,34 @@
         <form>
             <div class="form-group">
                 <label for="first_Name" class="form-label">First Name</label> 
-                <input type="text" id="first_Name" class="form-control mb-3" name="first_Name" placeholder="Enter first name">
+                <input type="text" id="first_Name" class="form-control mb-3" name="first_Name" placeholder="Enter first name" required >
             </div>
             <div class="form-group">
                 <label for="last_name" class="form-label">Last Name</label>
-                <input type="text" id="last_name" class="form-control mb-3" name="last_name" placeholder="Enter last name">
+                <input type="text" id="last_name" class="form-control mb-3" name="last_name" placeholder="Enter last name" required>
             </div>
             <div class="form-group">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" id="email" class="form-control" name="email" placeholder="Enter email">
+                <input type="email" id="email" class="form-control" name="email" placeholder="Enter email" required>
                 <div class="mb-3">
                 <small class="form-text text-muted mb-6" id="tiny_text">we will never share your email with third party. </small>
                 </div>
             
             <div class="form-group">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" id="password" class="form-control mb-3" name="password" placeholder="Enter password">
+                <input type="password" id="password" class="form-control mb-3" name="password" placeholder="Enter password" required>
             </div>
             <div class="form-group">
                 <label for="confirm_password" class="form-label">Confirm Password</label>
                 <input type="password" id="confirm_password" class="form-control mb-3" name="confirm_password" placeholder="Confirm password">
             </div>
             <div class="form-check mb-3">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required> 
             </div>
             <div>
                 <label for="gender" class="form-check-label">Female</label>
-                <input type="radio" class="form-check" name="gender">
+                <input type="radio" class="form-check" name="gender" >
                 <label class="form-check-label" for="male">Male</label>
                 <input type="radio" class="form-check" name="gender">
                 <label for="Others" class="form-check-label">Others</label>
@@ -48,7 +48,7 @@
             </div>
             <div>
                 <label for="country" class="form-label">Country</label>
-                <select id="country" class="form-select mb-3">
+                <select id="country" class="form-select mb-3" required>
                     <option selected>Choose country</option>
                     <option value="USA">USA</option>
                     <option value="UK">UK</option>
@@ -57,7 +57,7 @@
             </div>
             <div>
                 <label for="multiple-dropdown-selection">Select multiple</label>
-                <select multiple id="multi-dropdown-selection" class="form-select mb-3">
+                <select multiple id="multi-dropdown-selection" class="form-select mb-3"required >
                     <option value="1">Option 1</option>
                     <option value="2">Option 2</option>
                     <option value="3">Option 3</option>
@@ -72,15 +72,18 @@
             </div>
             <div>
                 <label for="dob" class="form-label">Date of Birth</label>
-                <input type="date" id="dob" class="form-control mb-3" name="dob">
+                <input type="date" id="dob" class="form-control mb-3" name="dob" required>
             </div>
             <div>
                 <label for="file_upload" class="form-label">Upload File</label>
-                <input type="file" id="file_upload" class="form-control-file mb-3" name="file_upload">
+                <input type="file" id="file_upload" class="form-control-file" name="file_upload">
+                <div class="mb-3">
+                    <small class="form-text text-muted" id="tiny_text">Only.jpg,.png,.pdf,.gif files are allowed.</small>
+                </div>
             </div>
             <div>
                 <label for="address" class="form-label">Address</label>
-                <textarea id="address" class="form-control mb-3" name="address" rows="3"></textarea>
+                <textarea id="address" class="form-control mb-3" name="address" rows="3" required></textarea>
             </div>
             <div>
                 <button type="submit" class="btn btn-primary">Submit</button>
