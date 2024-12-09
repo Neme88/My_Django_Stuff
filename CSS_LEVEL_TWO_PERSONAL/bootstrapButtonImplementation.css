@@ -1,3 +1,6 @@
 #second_button { 
     background-color: gray;
 }
+.btn-info {
+    padding:8px 40px;
+}
